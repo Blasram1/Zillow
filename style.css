@@ -1,7 +1,12 @@
 .card {
     width:350px;
     min-height:230px;
-    border:5px solid grey;
+    border-bottom: solid blue;
+    box-shadow:0 4px 8px 0 grey(0,0,0,0.2);
+    margin:16px;
+}
+.card:hover {
+    box-shadow:0 8px 16px 0 grey(0,0,0,0.2);
 }
 .picture-section {
     height:150px;
@@ -44,4 +49,7 @@
 }
 .type {
     font-size:12px;
+}
+a {
+    text-decoration:none;
 }
